@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yama Wear | Feedback</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="brand">
+
+    <img src="images/logo.jpeg"
+         alt="Yama Wear Logo"
+         width="60"
+         height="60">
+</div>
+    <h1 class="brand-name">YAMA WEAR</h1>
+
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="collection.html">Collection</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="feedback.html" class="active">Feedback</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="page-banner">
+    <h1>Customer Feedback</h1>
+</section>
+
+<section class="form-section">
+
+   <form class="feedback-form">
+
+    <!-- Full Name -->
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+    <!-- Email -->
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <!-- Phone Number -->
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+
+    <!-- Rating -->
+    <label for="rating">Rate Our Service</label>
+    <select id="rating" name="rating" required>
+        <option value="">-- Select Rating --</option>
+        <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+        <option value="4">⭐⭐⭐⭐ Good</option>
+        <option value="3">⭐⭐⭐ Average</option>
+        <option value="2">⭐⭐ Poor</option>
+        <option value="1">⭐ Very Poor</option>
+    </select>
+
+    <!-- Feedback Type -->
+    <label>What is your feedback about?</label>
+
+    <input type="radio" id="website" name="feedback_type" value="Website">
+    <label for="website">Website</label>
+
+    <input type="radio" id="service" name="feedback_type" value="Service">
+    <label for="service">Service</label>
+
+    <input type="radio" id="products" name="feedback_type" value="Products">
+    <label for="products">Products</label>
+
+    <!-- Comments -->
+    <label for="comments">Additional Comments</label>
+    <textarea id="comments" name="comments" rows="6"
+        placeholder="Write your comments here..." required></textarea>
+
+    <!-- Checkbox -->
+    <input type="checkbox" id="updates" name="updates">
+    <label for="updates">Send me updates and news</label>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit Feedback</button>
+
+</form>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Yama Wear. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
